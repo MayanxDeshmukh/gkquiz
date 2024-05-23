@@ -1,0 +1,24 @@
+ul li{
+    list-style:none;
+    display: grid;
+    grid-template-rows: 50px;
+    text-emphasis-color: red;
+}
+
+.btn{
+    background-color: burlywood;   
+     
+    color: black;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 22px;
+    gap: 20px;
+}
+
+.btn :hover{
+    transform: scale(2%);
+}
+.divs{
+    border: 2px solid grey;
+    padding: 20px;
+}
